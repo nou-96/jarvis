@@ -7,11 +7,11 @@ int main()
 	cin>>alph;
 	if((alph>='a'&& alph<='z') || (alph>='A' && alph<='Z'))
 	{
-		cout<<alph<<" is an alphabet";
+		cout<<"Alphabet";
 	}
 	else
 	{
-		cout<<alph<<" is not an alphabet";
+		cout<<"No";
 	}
 	return 0;
 }
