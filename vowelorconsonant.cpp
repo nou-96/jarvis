@@ -4,13 +4,14 @@ using namespace std;
 int main() 
 {
     char c;
-    int vowel;
+    int lvowel,uvowel;
     cout<<"Enter an alphabet:";
     cin>>c;
-    vowel = ( c == 'a'|| c =='e' || c =='i' || c =='o' || c =='u');
-    if(vowel)
-      cout<<c<<"is a vowel";
+    lvowel = ( c == 'a'|| c =='e' || c =='i' || c =='o' || c =='u');
+    uvowel = ( c == 'A'|| c =='E' || c =='I' || c =='O' || c =='U');
+    if(lvowel || uvowel )
+      cout<<"Vowel";
     else
-      cout<<c<<"is a consonant";
+      cout<<"Invalid";
     return 0;
 }
