@@ -9,17 +9,17 @@ int main()
 
     if(a>=b && a>=c)
     {
-        cout<<"Largest number:"<<a;
+        cout<<a;
     }
 
     if(b>=a && b>=c)
     {
-        cout<<"Largest number:"<<b;
+        cout<<b;
     }
 
     if(c>=a && c>=b) 
     {
-        cout<<"Largest number:"<<c;
+        cout<<c;
     }
     return 0;
 }
