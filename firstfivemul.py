@@ -1,5 +1,5 @@
-m=int(input())
-n=5
+n=int(input())
+m=5
 def multiple(m, n): 
   a = range(n, (m * n)+1, n) 
   print(*a) 
