@@ -1,6 +1,6 @@
 count=0
-num=int(input(""))
-while(num>0):
-  num=num//10
+numb=int(input(""))
+while(numb>0):
+  numb=numb//10
   count=count+1
 print(count)
