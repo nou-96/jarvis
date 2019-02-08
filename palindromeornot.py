@@ -1,0 +1,12 @@
+numb=int(input(""))
+numb<=1000
+temp=numb
+rev=0
+while(numb>0):
+    digg=numb%10
+    rev=rev*10+digg
+    numb=numb//10
+if(temp==rev):
+    print("yes")
+else:
+    print("no")
