@@ -1,4 +1,5 @@
 numb=int(input(""))
+numb<=1000
 k=0
 for i in range(2,numb//2+1):
     if(numb%i==0):
